@@ -4,8 +4,8 @@
 <script src="https://cdnjs.com/libraries/lottie-web" type="text/javascript"></script>
 <script  type="text/javascript" >
 
-var animation = bodymovin.loadAnimation({
-  container: document.getElementById('lottie'), // Required
+var animation = lottie.loadAnimation({
+  container: document.getElementById('lottiediv'), // Required
   path: 'data.json', // Required
   renderer: 'svg', // Required
   loop: false, // Optional
@@ -16,6 +16,6 @@ var animation = bodymovin.loadAnimation({
 </script>
 </head>
 <body>
-<div id="lottie">
+<div id="lottiediv">
 </div>
 </body>
